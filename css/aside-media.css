@@ -1,0 +1,86 @@
+
+@media (min-width: 1100px) {
+
+}
+@media (max-width: 1099px) {
+
+    .price-banner-label{
+        background: url(../images/price-banner-label-long.png) no-repeat;
+    }
+    .price-banner .image-pdf{
+        width: 38px;
+        margin-left: 16px;
+        margin-top: 6px;
+    }
+    .price-banner{
+        height: 60px;
+    }
+    .price-banner-label{
+        width: 155px;
+        height: 56px;
+        margin-top: 2px;
+        left: 8px;
+    }
+    .price-banner-label-text{
+        margin-top: 19px;
+        margin-left: 34px;
+        font-size: 12px;
+    }
+    .middle-container aside {
+        width: 220px;
+        position: absolute;
+        top: 0px;
+        left: 12px;
+    }
+}
+@media (max-width: 767px) {
+    /*.middle-container aside{*/
+        /*position: static;*/
+        /*margin: auto;*/
+        /*float: none;*/
+    /*}*/
+    /*.price-banner-wrap {*/
+        /*position: absolute;*/
+        /*top: 0;*/
+        /*left: 20px;*/
+    /*}*/
+    /*.text-under-footer{*/
+        /*padding: 0 20px;*/
+    /*}*/
+    /*.text-under-footer-title .upstairs-button{*/
+        /*display: none;*/
+    /*}*/
+}
+
+@media (max-width: 639px) {
+    .middle-container aside {
+        position: static;
+        margin: auto;
+        float: none;
+    }
+
+    .price-banner-wrap {
+        position: absolute;
+        top: 0;
+        left: 20px;
+    }
+
+    .text-under-footer {
+        padding: 0 12px;
+    }
+
+    .text-under-footer-title .upstairs-button {
+        display: none;
+    }
+}
+
+@media (max-width: 479px) {
+
+}
+@media (max-width: 319px) {
+
+}
+
+@media (max-width: 239px) {
+
+}

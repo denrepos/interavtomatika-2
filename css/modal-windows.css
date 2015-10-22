@@ -1,0 +1,138 @@
+/*general*/
+.modal-content {
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px 7px rgba(19, 82, 179, 0.17);
+}
+.modal-header {
+    background-color: #2285C6;
+    color: white;
+    padding: 12px;
+}
+.modal-title{
+    font-size: 12px;
+    font-weight: bold;
+}
+button.close {
+    color: white;
+    opacity: 1;
+    font-weight: initial;
+    margin-top: -4px;
+}
+.modal-header .close {
+    margin-top: -5px;
+}
+/*callback*/
+#callback-modal .modal-dialog{
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.modal-content {
+    border-radius: 0px;
+}
+.modal-body form {
+    color: red;
+}
+
+.modal-body form textarea{
+    width: 238px;
+    color: cadetblue;
+    padding: 5px 10px;
+}
+.modal-body form .required-mark{
+    vertical-align: top;
+    margin-top: 10px;
+}
+.modal-body form input{
+    height: 30px;
+    margin-bottom: 10px;
+    width: 238px;
+    color: cadetblue;
+    padding: 0px 10px;
+}
+.modal-body {
+    padding: 10px;
+}
+.modal-body .send {
+    background-color: #2285C6;
+    border: none;
+    height: 34px;
+    width: 120px;
+    color: white;
+    font-size: 12px;
+    margin: 8px 0;
+}
+.modal-body .cancel {
+    background-color: white;
+    border: none;
+    color: #2285C6;
+    width: 94px;
+    font-size: 12px;
+    height: 34px;
+    margin-left: 10px;
+}
+/*road-map*/
+div#road-map-modal .modal-body {
+    padding: 0;
+    overflow: hidden;
+}
+div#road-map-modal .modal-body iframe{
+    width: 100%;
+}
+
+/*colorbox jquery*/
+#cboxOverlay{
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: #3a3939;
+    opacity: 0.6;
+    z-index: 20;
+}
+button#cboxClose:hover {
+    color: #114363;
+    font-weight: initial;
+    text-shadow: 0px 1px 0px rgba(252, 248, 248, 0.76);
+}
+button#cboxClose {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 21px;
+    height: 30px;
+    padding: 0px;
+    width: 30px;
+    line-height: 1px;
+    top: 2px;
+    position: absolute;
+    right: 1px;
+    font-weight: bold;
+}
+#colorbox{
+    visibility: hidden !important;
+    box-shadow: 0px 0px 0px 7px rgba(19, 82, 179, 0.17);
+    z-index: 25;
+}
+
+div#cboxContent {
+    padding-top: 40px;
+}
+div#cboxTitle {
+    position: absolute;
+    top: 0px;
+    height: 40px;
+    background-color: rgb(34, 133, 198);
+    width: 100%;
+    color: white;
+    padding: 8px 13px;
+    font-size: 14px;
+}
+
+
+@media (max-width: 639px) {
+    .modal-dialog{
+        width: auto;
+        margin: 10px;
+    }
+}

@@ -1,0 +1,190 @@
+.price-banner {
+    height: 130px;
+    background-color: #eeeedd;
+    box-shadow: 0px 0px 6px 2px rgb(237, 229, 229);
+    margin-top: 30px;
+    border: 1px solid rgb(237, 229, 229);
+    margin-bottom: 30px;
+}
+.price-banner .image-pdf {
+    margin-left: 20px;
+    margin-top: 21px;
+    float: left;
+}
+.price-banner-label {
+    background: url(../images/price-banner-label.png) no-repeat;
+    width: 116px;
+    height: 83px;
+    float: right;
+    margin-top: 22px;
+    position: relative;
+    left: 6px;
+}
+.price-banner-label-text {
+    margin-top: 32px;
+    margin-left: 33px;
+    color: white;
+    font-size: 13px;
+}
+.banner {
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    border: 1px solid rgb(233, 244, 233);
+}
+.banner.novelty, .banner.list{
+    height: initial;
+}
+.banner.novelty .banner-content, .banner.list .banner-content{
+    padding-bottom: 0px;
+}
+.banner-header {
+    background-color: #546075;
+    display: block;
+    padding: 13px 16px 10px;
+
+}
+.banner-header:hover{
+    text-decoration: none;
+}
+.banner-header > *{
+    color: #ffffff;
+}
+.banner-header-all {
+    float: right;
+    text-decoration: underline;
+}
+.banner-content {
+    background-color: white;
+    padding: 17px 20px 0px;
+}
+.banner.list.with-numbers .number {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: block;
+    height: 31px;
+}
+.banner.list.with-numbers .banner-content .text-wrap{
+    margin-right: 40px;
+}
+.banner.list.with-numbers .banner-content a:hover .number {
+    color: #23527c;
+}
+.banner.certificate .banner-content{
+    background-color: white;
+    padding: 15px 10px;
+}
+.banner.blog .banner-content > a:hover .text-wrap, .banner.novelty .banner-content > a:hover .text-wrap, .banner.list .banner-content > a:hover .text-wrap{
+    position: relative;
+    left: 11px;
+    top: 0px;
+}
+.banner.blog .banner-content .text-wrap, .banner.novelty .banner-content .text-wrap , .banner.list .banner-content .text-wrap {
+    display: inline-block;
+    margin-bottom: 14px;
+    line-height: 17px;
+}
+@supports (-moz-appearance:meterbar) {
+    .banner .glyphicon.glyphicon-menu-right::before {
+        position: absolute;
+        top: 1px;
+    }
+}
+.banner.blog .banner-content a, .banner.novelty .banner-content a , .banner.list .banner-content a {
+    text-decoration: none;
+    display: block;
+    position: relative;
+}
+.banner.blog .banner-content > a:hover .glyphicon.glyphicon-menu-right, .banner.novelty .banner-content > a:hover .glyphicon.glyphicon-menu-right , .banner.list .banner-content > a:hover .glyphicon.glyphicon-menu-right {
+    display: inline;
+}
+div#cboxContent {
+     padding-top: 40px;
+ }
+.banner.blog .banner-content .glyphicon.glyphicon-menu-right, .banner.novelty .banner-content .glyphicon.glyphicon-menu-right , .banner.list .banner-content .glyphicon.glyphicon-menu-right {
+    font-size: 9px;
+    color: #2285C6;
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 3px;
+}
+.banner-content-title {
+    font-size: 14px;
+    margin: 0px 15px 10px;
+}
+.banner-more.float-right {
+    margin-top: 20px;
+}
+.banner-content-image {
+    height: 153px;
+    display: block;
+}
+.banner-content.banner-content-carousel{
+    padding-top: 14px;
+}
+#banner-carousel .carousel-indicators {
+    bottom: -38px;
+}
+#banner-carousel .carousel-indicators li{
+    background-image: url(../images/carusel-nav.png);
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+}
+#banner-carousel .carousel-indicators li.active{
+    background-image: url(../images/carusel-nav-active.png);
+}
+#banner-carousel .item {
+    height: 306px;
+}
+#banner-carousel .item img:nth-child(1) {
+    opacity: 0.6;
+}
+#banner-carousel .item img:nth-child(2) {
+     position: absolute;
+     top: 0px;
+     left: 0px;
+    z-index: 5;
+ }
+#banner-carousel .item img:nth-child(2):hover{
+    opacity: 0;
+}
+.banner-carousel-title {
+    font-size: 14px;
+}
+.banner-carousel-title {
+    margin-bottom: 3px;
+}
+.banner-carousel-img-wrap:hover {
+    background-color: rgb(114, 183, 244);
+}
+.banner-carousel-img-wrap {
+    position: relative;
+    background-color: #ffffff;
+    display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
+}
+#banner-carousel .glyphicon.glyphicon-search {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    margin: auto;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    font-size: 15px;
+    color: white;
+    border-radius: 26px;
+    background-color: #2285C6;
+    padding-top: 17px;
+    padding-left: 2px;
+}
+.banner.certificate {
+    height: 400px;
+}

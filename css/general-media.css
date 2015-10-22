@@ -1,0 +1,70 @@
+@media (min-width: 1100px) {
+
+    .middle-container{
+        margin: auto;
+        width: 1100px;
+    }
+}
+@media (max-width: 1099px) {
+
+    .design-development .slider-window:after {
+        height: 98%;
+        top: 5px;
+    }
+
+    .viewed-products .slider-window:after {
+        height: 100%;
+        top: 9px;
+    }
+
+    .right-rewind-grey, .right-rewind-blue {
+        right: 7px;
+    }
+    .block-under-previews ul{
+        padding-left: 20px;
+    }
+
+
+    /*.content > :not(.viewed-products, .automation-components, .popular-products, .manufacturers, .design-development, .text-under-footer) {*/
+        /*margin-right: 12px;*/
+    /*}*/
+}
+/*md*/
+@media (max-width: 767px) {
+
+    .popular-products .upstairs-button{
+        display: block;
+    }
+}
+
+/*sm*/
+@media (max-width: 479px) {
+
+}
+/*xs*/
+@media (max-width: 320px) {
+    .container-fluid{
+        width: 320px;
+    }
+}
+
+@media (max-width: 239px) {
+
+}
+
+
+
+
+
+/*@media (min-width: 1100px) {*/
+
+/*}*/
+/*@media (max-width: 1099px) {*/
+/*}*/
+/*@media (max-width: 767px) {*/
+
+/*}*/
+
+/*@media (max-width: 479px) {*/
+
+/*}*/

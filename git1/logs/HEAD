@@ -1,0 +1,17 @@
+0000000000000000000000000000000000000000 7a74327aaf501ae2d172d4db8197b0fc2f167fd5 den <C:\Users\леново\AppData\Roaming\The Bat!\Mail> 1442334906 +0300	commit (initial): first version of header
+7a74327aaf501ae2d172d4db8197b0fc2f167fd5 d2d39bd1e0567f0e57d2266a9f8d5693199689e9 den <C:\Users\леново\AppData\Roaming\The Bat!\Mail> 1442335030 +0300	commit: add .idea
+d2d39bd1e0567f0e57d2266a9f8d5693199689e9 243f8c69395c442a79a983d97e0181d0583aeb3b den <C:\Users\леново\AppData\Roaming\The Bat!\Mail> 1443025216 +0300	commit: main page is done and litle more
+243f8c69395c442a79a983d97e0181d0583aeb3b 243f8c69395c442a79a983d97e0181d0583aeb3b den <C:\Users\леново\AppData\Roaming\The Bat!\Mail> 1443026158 +0300	checkout: moving from master to change_carousel
+243f8c69395c442a79a983d97e0181d0583aeb3b 243f8c69395c442a79a983d97e0181d0583aeb3b den <C:\Users\леново\AppData\Roaming\The Bat!\Mail> 1443026230 +0300	checkout: moving from change_carousel to master
+243f8c69395c442a79a983d97e0181d0583aeb3b 7348af8a93fa6f4f4a21579bf8f4a37cc6fad5ec den <C:\Users\леново\AppData\Roaming\The Bat!\Mail> 1443029010 +0300	commit: made price list in aside fore mobile devices
+7348af8a93fa6f4f4a21579bf8f4a37cc6fad5ec 243f8c69395c442a79a983d97e0181d0583aeb3b den <C:\Users\леново\AppData\Roaming\The Bat!\Mail> 1443029138 +0300	checkout: moving from master to change_carousel
+243f8c69395c442a79a983d97e0181d0583aeb3b 7348af8a93fa6f4f4a21579bf8f4a37cc6fad5ec den <C:\Users\леново\AppData\Roaming\The Bat!\Mail> 1443029780 +0300	checkout: moving from change_carousel to master
+7348af8a93fa6f4f4a21579bf8f4a37cc6fad5ec 2795c71f45e7113aaf1a2d7dc639aab9d3d17be1 den <C:\Users\леново\AppData\Roaming\The Bat!\Mail> 1443081113 +0300	commit: slider beta version
+2795c71f45e7113aaf1a2d7dc639aab9d3d17be1 812ca8c65d54718ad026dbbeaa918ef1eaadd11e den <C:\Users\леново\AppData\Roaming\The Bat!\Mail> 1444212861 +0300	commit: before change bootstrap config.json
+812ca8c65d54718ad026dbbeaa918ef1eaadd11e 72dcbedf4d75536a0363629e6942203c136e64c7 den <C:\Users\леново\AppData\Roaming\The Bat!\Mail> 1444218017 +0300	commit: bootstrap breackpoints is modified
+72dcbedf4d75536a0363629e6942203c136e64c7 056c835fd4ab97d6316da051c534e6ca46134c63 den <C:\Users\леново\AppData\Roaming\The Bat!\Mail> 1444290301 +0300	commit: before as make changes in menu on header
+056c835fd4ab97d6316da051c534e6ca46134c63 dee2e0b7ebd3a799094a0f5449eed7c8f410eefc den <C:\Users\леново\AppData\Roaming\The Bat!\Mail> 1444383943 +0300	commit: min width 530px done
+dee2e0b7ebd3a799094a0f5449eed7c8f410eefc 056c835fd4ab97d6316da051c534e6ca46134c63 den <C:\Users\леново\AppData\Roaming\The Bat!\Mail> 1444384030 +0300	checkout: moving from master to 056c
+056c835fd4ab97d6316da051c534e6ca46134c63 dee2e0b7ebd3a799094a0f5449eed7c8f410eefc den <C:\Users\леново\AppData\Roaming\The Bat!\Mail> 1444385544 +0300	checkout: moving from 056c835fd4ab97d6316da051c534e6ca46134c63 to dee2
+dee2e0b7ebd3a799094a0f5449eed7c8f410eefc cd707ff9c81fed169a2d50476431ee6bf712bcd0 den <C:\Users\леново\AppData\Roaming\The Bat!\Mail> 1445523780 +0300	commit: main, search,brands,blog,catalog is done
+cd707ff9c81fed169a2d50476431ee6bf712bcd0 da588ff4b95c1abb1a4ea54281b50e64324fa3c0 den <C:\Users\леново\AppData\Roaming\The Bat!\Mail> 1445523862 +0300	commit: main, search,brands,blog,catalog is done and .idea folder

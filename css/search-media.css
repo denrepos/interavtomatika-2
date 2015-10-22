@@ -1,0 +1,300 @@
+
+
+@media (min-width: 1100px) {
+
+}
+@media (max-width: 1099px) {
+    .pagination {
+        display: block;
+        margin-left: 0;
+        text-align: center;
+    }
+}
+@media (max-width: 999px) {
+    .search-title .social-buttons{
+        right: 12px;
+    }
+    .search-product-items-header{
+        display: none;
+    }
+    .backlight-cells-row {
+        display: table-row;
+        position: relative;
+        display: block;
+    }
+    .results-product-item .stockroom {
+         width: 57px;
+     }
+    .results-product-item .cart{
+        width: 79px;
+    }
+    .results-product-item .photo {
+        position: absolute;
+        z-index: 1;
+    }
+    .photo .img-wrap{
+        height: 90px;
+    }
+    .results-product-item .backlight-cells-row .product-denomination{
+        padding-top: 90px;
+    }
+    .search-results-products .found-title{
+        margin-bottom: 20px;
+        width: auto;
+    }
+    .sort-by-wrap{
+        margin-bottom: 18px;
+        float: right;
+        margin-right: 10px;
+    }
+    .search-results-products .found-title{
+        margin-top: 10px;
+    }
+
+    .in-stock-wrap{
+        margin-right: 0;
+    }
+    .results-product-item .product-number {
+        position: absolute;
+        line-height: 100px;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+    .results-products-items .backlight-cells-row .manufacturer {
+        position: absolute;
+        top: 0;
+        right: 10px;
+        height: 91px;
+    }
+    .results-product-item .manufacturer {
+        line-height: 96px;
+    }
+    .results-product-item .manufacturer .wrap{
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 879px) {
+    .search-results-products .found-title{
+        display: block;
+    }
+    .sort-by-wrap{
+        float: left;
+    }
+}
+@media (max-width: 819px) {
+    .results-product-item .stockroom{
+        border-left: 0;
+        vertical-align: top;
+        padding-top: 45px;
+    }
+    .results-product-item .product-number {
+        top: 75px;
+        right: -156px;
+        width: 160px;
+        left: inherit;
+    }
+    .results-products-items .cart{
+        padding-right: 0;
+        vertical-align: top;
+        padding-top: 41px;
+    }
+    .results-product-item .cart-image-hover{
+        /*left: 18px;*/
+    }
+    .results-product-item:hover{
+        background-color: #f8faf8;
+    }
+}
+@media (max-width: 767px) {
+    .search-title h1{
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 744px) {
+    .results-product-item .backlight-cells-row .product-denomination{
+        padding-bottom: 70px;
+    }
+    .results-product-item {
+        display: block;
+        position: relative;
+    }
+    .results-product-item .product-number {
+        bottom: 0px;
+        left: 0;
+        width: 160px;
+        top: inherit;
+        text-align: left;
+        line-height: 75px;
+    }
+    .results-products-items .backlight-cells-row .manufacturer{
+        bottom: 0;
+        top: inherit;
+        padding: 0;
+        width: 130px;
+        right: 30px;
+    }
+    .results-product-item .stockroom {
+        border-left: 0;
+        position: absolute;
+        right: 75px;
+        width: 90px;
+        top: 47px;
+        padding: 0;
+        text-align: center;
+        border: 0;
+    }
+    .results-products-items .cart {
+        padding-right: 0;
+        position: absolute;
+        right: 0px;
+        width: 90px;
+        top: 2px;
+        border: 0;
+    }
+    .results-product-item .backlight-cells-row .product-denomination{
+        padding-top: 95px;
+    }
+}
+
+@media (max-width: 639px) {
+    .search-title h1{
+        margin-top: 75px;
+        width: auto;
+    }
+    .found-title-wrap{
+        margin-right: 0;
+        float: right;
+        margin-top: 77px;
+    }
+    .search-title .social-buttons{
+        right: 60px;
+        top: 11px;
+    }
+    .search-page .price-banner-wrap{
+        left: 30px;
+    }
+}
+@media (min-width: 480px) and (max-width: 530px) {
+    .results-products-items .backlight-cells-row .manufacturer {
+        right: -10px;
+        height: 75px;
+        padding: 3px 0;
+    }
+    .results-product-item .backlight-cells-row .product-denomination{
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 529px) {
+    .found-title-wrap {
+        float: none;
+        margin-top: 0px;
+        width: 240px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        margin-bottom: 60px;
+        padding-left: 5px;
+    }
+
+    .search-title h1 {
+        width: 233px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .search-page .price-banner-wrap {
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 220px;
+    }
+
+    .search-title .social-buttons {
+        right: 0;
+        top: 155px;
+        left: 0;
+        margin: auto;
+        width: 103px;
+    }
+}
+@media (max-width: 479px) {
+    .results-product-item .backlight-cells-row .product-denomination{
+        padding-bottom: 70px;
+    }
+    .results-product-item {
+        display: block;
+        position: relative;
+    }
+    .results-product-item .product-number {
+        bottom: 0px;
+        left: 0;
+        width: 160px;
+        top: inherit;
+        text-align: left;
+        line-height: 75px;
+    }
+    .results-products-items .backlight-cells-row .manufacturer{
+        bottom: 0;
+        top: inherit;
+        padding: 0;
+        width: 130px;
+        right: 30px;
+    }
+    .results-product-item .stockroom {
+        border-left: 0;
+        position: absolute;
+        right: 75px;
+        width: 90px;
+        top: 47px;
+        padding: 0;
+        text-align: center;
+        border: 0;
+    }
+    .results-products-items .cart {
+        padding-right: 0;
+        position: absolute;
+        right: 0px;
+        width: 90px;
+        top: 2px;
+        border: 0;
+    }
+    .results-product-item .backlight-cells-row .product-denomination{
+        padding-top: 95px;
+    }
+}
+
+@media (max-width: 479px) {
+    .in-stock-wrap {
+        float: none;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .search-results-products {
+        text-align: center;
+    }
+    .sort-by-wrap {
+        float: none;
+        margin: 20px 0;
+    }
+}
+@media (max-width: 409px) {
+    .results-products-items .backlight-cells-row .manufacturer{
+        right: 10px;
+    }
+    .results-products-items .cart{
+        top: 14px;
+        right: 29px;
+    }
+    .results-product-item .stockroom{
+        top: 20px;
+        right: 29px;
+    }
+}

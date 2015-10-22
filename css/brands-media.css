@@ -1,0 +1,78 @@
+
+
+@media (min-width: 1100px) {
+
+}
+
+@media (max-width: 1099px) {
+    .product-category-previews{
+        width: 577px;
+    }
+    .brand-title{
+        font-size: 18px;
+    }
+    .all-brands-page .manufacturers .previews-title{
+        font-size: 18px;
+        color: black;
+        line-height: 22px;
+    }
+}
+
+@media (max-width: 819px) {
+    .product-category-previews{
+        width: 294px;
+    }
+}
+@media (max-width: 767px) {
+    .brand-article img{
+        float: none;
+        display: block;
+        margin: 0 auto 20px;
+    }
+    .brand-logo{
+        float: none;
+    }
+    .all-brands-social-buttons{
+        width: 114px;
+    }
+    .brand-title{
+        padding-bottom: 0;
+    }
+    .all-brands-page .manufacturers .right-under-previews{
+        padding-top: 25px !important;
+    }
+}
+@media (max-width: 639px) {
+    .product-category-previews{
+        margin: auto;
+    }
+    .brand-title{
+        text-align: center;
+        padding: 0;
+        margin-left: 0;
+    }
+    .middle-container-wrap{
+        padding-bottom: 20px;
+    }
+    .brand-article{
+        padding: 0 10px;
+    }
+    .brand-article h5, .brand-article h4, .brand-article h3, .brand-article h2{
+        margin-left: 0;
+        font-size: 17px;
+    }
+    .all-brands-page .manufacturers .previews-title {
+        text-align: center;
+    }
+    .product-category-previews-wrap {
+        margin-left: -7px;
+    }
+}
+@media (max-width: 409px) {
+    .all-brands-page .manufacturers .social-buttons {
+        float: left;
+        clear: both;
+        margin-left: 30px;
+        margin-bottom: -10px;
+    }
+}

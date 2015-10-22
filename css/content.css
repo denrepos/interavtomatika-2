@@ -1,0 +1,316 @@
+
+/*First block*/
+
+.content{
+    padding-left: 20px;
+}
+.automation-components .slider-window{
+    background-color: #f0f0e1;
+}
+.automation-components-previews {
+    height: 220px;
+    width: 850px;
+}
+.automation-components-title {
+    font-size: 24px;
+    color: #1e1e1e;
+    line-height: 15px;
+    margin-top: 45px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.general-preview:hover {
+    box-shadow: 0px 0px 7px 0px rgb(165, 161, 161);
+}
+.general-preview {
+    width: 160px;
+    height: 200px;
+    margin: 10px 0px 0px 10px;
+    background-color: white;
+    border: 1px solid rgb(227, 227, 219);
+    float: left;
+    padding: 5px;
+    position: relative;
+}
+.preview-product-count {
+    display: inline-block;
+    background-color: rgb(34, 133, 198);
+    color: white;
+    padding: 1px 5px 0px;
+    font-size: 11px;
+    float: right;
+}
+.preview-title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+}
+.automation-components .right-under-previews{
+    margin-top: 39px;
+}
+.right-under-previews{
+    width: 45%;
+    float: right;
+}
+.custom-li-markers ul{
+    list-style: none;
+    padding: 0;
+}
+.custom-li-markers ul li{
+    line-height: 16px;
+}
+.block-under-previews ul li:before, .custom-li-markers ul li:before{
+    content: '.';
+    width: 3px;
+    height: 3px;
+    display: inline-block;
+    background-color: rgb(34, 133, 198);
+    font-size: 0px;
+    margin-right: 7px;
+    position: relative;
+    top: 2px;
+}
+ .block-under-previews ul{
+    width: 54.6%;
+    float: left;
+    padding-left: 66px;
+    padding-top: 29px;
+    font-size: 13px;
+    line-height: 16px;
+    list-style: none;
+}
+span.social-text {
+    vertical-align: bottom;
+    margin-left: 20px;
+}
+.automation-components-previews .general-preview .img-wrap, .catalog-previews .general-preview .img-wrap{
+    height: 107px;
+    margin: 23px auto 0px;
+    clear: both;
+}
+.block-under-previews{
+    display: inline-block;
+    width: 100%;
+}
+
+/*popular*/
+
+.previews-title{
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10px;
+    position: relative;
+}
+.main-page .previews-title{
+    margin-top: 37px;
+}
+.main-page .previews-title{
+    text-transform: uppercase;
+}
+.popular-previews {
+    margin-top: 6px;
+}
+.popular-products .general-preview .img-wrap, .viewed-products .general-preview .img-wrap{
+    height: 75px;
+    display: block;
+}
+.popular-preview-title:hover{
+    cursor: pointer;
+    color: #2285C6;
+    text-decoration: none;
+}
+.popular-preview-title, .viewed-products-preview-title{
+    line-height: 15px;
+    overflow: hidden;
+    height: 59px;
+    display: block;
+    color: inherit;
+}
+.feedback-thumb{
+    background-image: url(../images/thumb.png);
+    background-repeat: no-repeat;
+}
+.feedback-thumb {
+    margin-left: 14px;
+    margin-top: 10px;
+    float: left;
+}
+.popular-preview-brand{
+    clear: both;
+    padding-left: 30px;
+    padding-top: 4px;
+}
+.cart-image-hover:hover, .cart-image-hover:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.cart-image-hover {
+    background-image: url(../images/cart-hover.png);
+    background-repeat: no-repeat;
+    height: 42px;
+    position: absolute;
+    width: 42px;
+    opacity: 0;
+}
+.wrap .cart-image-hover{
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+.popular-previews .cart-image-hover, .viewed-products .cart-image-hover {
+    right: 4px;
+    bottom: 4px;
+}
+.popular-previews .cart-image ,.viewed-products .cart-image {
+    position: absolute;
+    right: 10px;
+    bottom: 13px;
+}
+.popular-previews {
+    margin-top: 6px;
+    width: 3440px;
+    display: inline-block;
+    position: relative;
+}
+/*manufacturers*/
+
+.manufacturers-previews {
+    display: inline-block;
+    padding-bottom: 4px;
+    box-sizing: content-box;
+    width: 860px;
+}
+.manufacturers-preview-title {
+    float: left;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+.manufacturers .previews-title {
+    margin-bottom: 15px;
+}
+.main-page .manufacturers .previews-title {
+    margin-top: 60px;
+}
+.manufacturers .slider-window{
+    border: 1px solid rgb(227, 227, 219);
+}
+.manufacturers .slider-window:hover {
+    background-color: #F0F0E1;
+}
+.manufacturers-preview-description:hover {
+    text-decoration: none;
+    color: rgb(34, 133, 198);;
+}
+.manufacturers-preview-description {
+    text-align: center;
+    display: block;
+    color: inherit;
+    line-height: 18px;
+    height: 90px;
+    overflow: hidden;
+}
+.manufacturers .general-preview{
+    margin: 9px 1px 1px 9px;
+}
+.general-preview-wrap {
+    float: left;
+}
+.general-preview-wrap > div {
+    clear: both;
+}
+button.general-button:hover {
+    color: white;
+    background-color: #2285c6;
+}
+button.general-button {
+    color: #2285c6;
+    border: 1px solid #2285c6;
+    font-size: 14px;
+    padding: 6px;
+    background-color: #edf4f5;
+    width: 173px;
+}
+.manufacturers .right-under-previews {
+    padding-top: 25px;
+}
+.manufacturers .block-under-previews ul{
+    padding-top: 24px;
+}
+.manufacturers .img-wrap{
+    clear: both;
+    height: 70px;
+}
+
+/*design and development*/
+
+.design-development .previews-title{
+    margin-top: 43px;
+    margin-bottom: 5px;
+}
+.previews-title{
+    padding-right: 80px;
+}
+.design-development-previews{
+    display: inline-block;
+    width: 850px;
+}
+.design-development-previews .img-wrap{
+    height: 91px;
+}
+.design-development .general-preview{
+    text-align: center;
+    padding-top: 13px;
+}
+.development-previews-description{
+    line-height: 15px;
+    display: inline-block;
+    height: 60px;
+    overflow: hidden;
+}
+.design-development .block-under-previews ul{
+    padding-top: 23px;
+}
+.design-development .right-under-previews{
+    margin-top: 25px;
+}
+
+/*viewed products*/
+
+.viewed-products .previews-title{
+    margin-top: 36px;
+}
+.viewed-products-previews{
+    display: inline-block;
+    margin-top: 5px;
+    width: 3440px;
+}
+.viewed-products-preview-brand {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    text-transform: uppercase;
+}
+.rating-stars{
+    margin-top: 10px;
+    margin-left: 3px;
+}
+.viewed-products-preview-title{
+    height: 46px;
+    overflow: hidden;
+}
+.text-under-footer{
+    position: relative;
+    padding-left: 20px;
+}
+.text-under-footer-title {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 54px;
+    position: relative;
+}
+.text-under-footer-content {
+    font-size: 13px;
+    margin-top: 18px;
+    margin-left: 19px;
+    line-height: 15px;
+}

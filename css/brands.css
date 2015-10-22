@@ -1,0 +1,179 @@
+/*content*/
+.all-brands-social-buttons {
+    width: 240px;
+    float: right;
+    margin-top: 13px;
+}
+.manufacturers .upstairs-button{
+    display: none;
+}
+.all-brands-page .manufacturers .previews-title{
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 0;
+    padding-right: 0;
+}
+.viewed-products .previews-title{
+    text-transform: uppercase;
+}
+.all-brands-page .manufacturers .slider-window{
+    background-color: #F0F0E1;
+}
+.brand-title {
+    font-size: 24px;
+    padding-left: 10px;
+    line-height: 21px;
+    padding-bottom: 18px;
+    padding-top: 9px;
+}
+.brand-logo{
+    width: 170px;
+    height: 70px;
+    float: left;
+}
+.brand-description{
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0 10px 30px 10px;
+}
+.product-category-previews {
+    background-color: #F0F0E1;
+    display: block;
+    padding-bottom: 10px;
+}
+.product-category-preview {
+    width: 270px;
+    background-color: #ffffff;
+    float: left;
+    margin: 10px 0px 0px 11px;
+    box-sizing: content-box;
+    border: 1px solid #E4E1E1;
+}
+.product-category-previews .img-wrap{
+    width: 100%;
+    height: 130px;
+}
+.product-category-preview-title {
+    padding: 0 13px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 33px;
+    height: 53px;
+    border-bottom: 1px solid #E4E1E1;
+    font-size: 13px;
+}
+.product-category-preview-title > span{
+    line-height: 14px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.category-preview-subcategories {
+    padding: 15px 12px;
+}
+.category-preview-subcategories .subcategory-link{
+    display: block;
+    line-height: 18px;
+    font-size: 13px;
+    color: inherit;
+    cursor: pointer;
+    padding: 7px 0;
+    position: relative;
+}
+.category-preview-subcategories .subcategory-link:hover{
+    color: #2285C6;
+    text-decoration: none;
+}
+.category-preview-subcategories .subcategory-link:hover span{
+    position: relative;
+    left: 15px;
+}
+.category-preview-subcategories .subcategory-link:hover .glyphicon-menu-right{
+    display: block;
+    position: absolute;
+    font-size: 9px;
+    top: 11px;
+}
+@supports (-moz-appearance:meterbar) {
+    .category-preview-subcategories .subcategory-link:hover .glyphicon-menu-right{
+        top: 12px;
+    }
+}
+.brand-article{
+    margin-top: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
+    position: relative;
+}
+.brand-article h5,.brand-article h4,.brand-article h3,.brand-article h2{
+    margin-left: -20px;
+    margin-bottom: 30px;
+    margin-right: 55px;
+}
+.brand-article img{
+    float: right;
+    border: 1px solid #E4E1E1;
+    border-radius: 6px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
+.banner.another-brands .banner-content{
+    padding: 0 0 10px 0;
+}
+.banner.another-brands .brand-item {
+    line-height: 30px;
+    padding: 0 20px;
+}
+.banner.another-brands .brand-item:hover {
+    background-color: #E7F2F9;
+    cursor: pointer;
+}
+.banner.another-brands .brand-item > div:first-child{
+    float: left;
+    margin-right: 6px;
+}
+.sort-button{
+    cursor: pointer;
+    height: 26px;
+    width: 36px;
+    margin-left: 50px;
+}
+.sort-button-wrap{
+    border-bottom: 1px solid #E4E1E1;
+    width: 86px;
+    margin-bottom: 5px;
+}
+.sort-button{
+    background: url(../images/sort-brends.png) no-repeat center;
+}
+.brand-previews-more{
+    text-align: center;
+    margin-top: 10px;
+}
+.brand-previews-more .general-preview-wrap{
+    display: inline-block;
+    float: none;
+}
+.brand-previews-more .general-preview-wrap .general-preview {
+    margin: 5px 4px 1px 3px;
+}
+.all-brands-page .right-under-previews {
+    float: left;
+    clear: both;
+    margin-left: 30px;
+}
+.all-brands-page .manufacturers .social-buttons{
+    width: 30%;
+    float: right;
+    margin-top: 30px;
+}
+
+/*aside*/
+.banner.brands .banner-content{
+    padding-bottom: 15px;
+    font-size: 13px;
+}
+.banner.brands .banner-content a{
+    cursor: pointer;
+    line-height: 22px;
+}

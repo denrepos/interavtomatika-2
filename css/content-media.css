@@ -1,0 +1,215 @@
+
+@media (min-width: 1100px) {
+
+}
+@media (max-width: 1099px) {
+
+    .slider-window-wrap{
+        margin-right: -12px;
+    }
+
+    .slider-window-wrap:after {
+        content: '';
+        position: absolute;
+        background: linear-gradient(to left, white 47%, transparent );
+        height: 198px;
+        top: 11px;
+        width: 103px;
+        right: 0px;
+    }
+    .viewed-products .slider-window-wrap:after {
+        top: 16px;
+    }
+    .popular-products .slider-window-wrap:after{
+        top: 17px;
+    }
+    .manufacturers .slider-window-wrap:after {
+        height: 408px;
+        top: 11px;
+    }
+
+    .popular-products .slider-window-wrap:before{
+        height: 198px;
+        top: 17px;
+    }
+
+    .manufacturers .slider-window-wrap:before{
+        height: 408px;
+        top: 11px;
+    }
+
+    .design-development .slider-window-wrap:before{
+        height: 198px;
+        top: 11px;
+    }
+
+    .viewed-products .slider-window-wrap:before{
+        height: 198px;
+        top: 16px;
+    }
+
+    .right-rewind-grey, .right-rewind-blue {
+        right: 7px;
+        z-index: 1;
+    }
+    .content{
+        padding-left: 242px;
+        padding-right: 12px;
+        width: 100%;
+    }
+
+    .block-under-previews ul{
+        padding-left: 20px;
+    }
+
+    .social-text{
+        display: none;
+    }
+
+    .left-rewind-grey, .left-rewind-blue{
+        display: none;
+    }
+
+    .right-under-previews{
+        width: 34%;
+    }
+    .block-under-previews ul{
+        width: 66%
+    }
+
+    .upstairs-button{
+        top: 6px;
+    }
+    .automation-components-title {
+        font-size: 18px;
+        line-height: 21px;
+        margin-top: 43px;
+    }
+    .text-under-footer{
+        padding-left: 242px;
+        padding-right: 12px;
+        width: 100%;
+    }
+    .text-under-footer-content {
+        margin-top: 18px;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+}
+@media (max-width: 767px) {
+    .right-under-previews{
+        float: none;
+        clear: both;
+        margin-left: 30px;
+        padding-top: 10px !important;
+    }
+    .block-under-previews ul{
+        width: 100%;
+    }
+}
+
+@media (max-width: 639px) {
+
+    .content{
+        padding: 0 20px 30px;
+    }
+    .automation-components-title {
+        font-size: 18px;
+        line-height: 21px;
+        margin-top: 30px;
+        margin-left: 230px;
+        text-align: center;
+        min-height: 63px;
+    }
+    .slider-window-wrap{
+        margin-right: -20px;
+        margin-left: -40px;
+        padding-left: 50%;
+    }
+    .slider-window{
+        margin-left: -390px;
+    }
+    .left-rewind-grey{
+        display: block;
+        left: 27px;
+        z-index: 1;
+    }
+    .left-rewind-blue{
+        display: block;
+        left: 27px;
+        z-index: 1;
+    }
+    .slider-window-wrap:before{
+        content: '';
+        position: absolute;
+        background: linear-gradient(to right, white 47%, transparent );
+        height: 90%;
+        top: 11px;
+        width: 103px;
+        left: 20px;
+        z-index: 1;
+    }
+    .popular-products .slider-window-wrap:after{
+        height: 198px;
+        top: 17px;
+    }
+
+    .manufacturers .slider-window-wrap:after{
+        height: 408px;
+        top: 11px;
+    }
+
+    .design-development .slider-window-wrap:before{
+        height: 198px;
+        top: 11px;
+    }
+
+    .viewed-products .slider-window-wrap:before{
+        height: 198px;
+        top: 16px;
+    }
+    .viewed-products .slider-window-wrap:after{
+        top: 16px;
+    }
+    .text-under-footer{
+        clear: both;
+    }
+    .right-under-previews{
+        width: 37%;
+    }
+    .block-under-previews ul{
+        padding-right: 30px;
+    }
+
+}
+@media (max-width: 479px) {
+    .automation-components-title{
+        margin: 115px 0 0 0;
+    }
+    .price-banner-wrap {
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 220px;
+    }
+    .automation-components-title{
+        min-height: auto;
+        padding-bottom: 20px;
+    }
+}
+@media (max-width: 409px) {
+    .block-under-previews ul{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .right-under-previews{
+        margin-left: 10px;
+    }
+}
+@media (max-width: 319px) {
+
+}
+
+@media (max-width: 239px) {
+
+}

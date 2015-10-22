@@ -1,0 +1,58 @@
+.britain, .ukraine, .russian_federation, .empty-cart, .full-cart, .visa, .приват-банк, .maestro, .mastercard{
+	background: url(sprites.png) no-repeat;
+}
+
+.britain{
+	background-position: 0 0;
+	width: 144px;
+	height: 144px;
+}
+
+.ukraine{
+	background-position: -150px 0;
+	width: 144px;
+	height: 144px;
+}
+
+.russian_federation{
+	background-position: -301px 0;
+	width: 144px;
+	height: 144px;
+}
+
+.empty-cart{
+	background-position: -460px -15px ;
+	width: 29px;
+	height: 21px;
+}
+
+.full-cart{
+	background-position: -512px -14px ;
+	width: 29px;
+	height: 21px;
+}
+
+.visa{
+	background-position: -550px -55px ;
+	width: 69px;
+	height: 37px;
+}
+
+.приват-банк{
+	background-position: -457px -55px ;
+	width: 69px;
+	height: 37px;
+}
+
+.maestro{
+	background-position: -549px -104px ;
+	width: 69px;
+	height: 37px;
+}
+
+.mastercard{
+	background-position: -456px -106px ;
+	width: 69px;
+	height: 37px;
+}
+
